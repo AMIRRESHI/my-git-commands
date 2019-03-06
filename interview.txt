@@ -1,0 +1,21 @@
+
+Tell me about your projects:
+
+Angular animation
+How to use third party components from anular material
+
+Angular:
+	which version of angular you are using
+	How to share same instance data between employee/employeeDetailComp. Same instance could be required by some other module.
+		can we embed provider on that component where required?
+	How to update some theme colors for some specific components without affecting others
+	NgrxStore
+	Testing frameworks
+
+Javascipt:
+	Have you worked on any chaching related projects
+	As javascript being single threaded, if two functions are executing with some timeout/Asychronoulsy. How to show that on ui without using external promise libraries.
+
+Bootstrap
+	Difference between fullwidth & container
+	How col-lg-10 is different from col-sm-1. Internally how they work
