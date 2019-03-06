@@ -1,0 +1,21 @@
+git remote set-url origin https://amirreshi@bitbucket.org/amirreshi/angular-ngrx-starter.git
+
+
+git remote add amirreshi https://bitbucket.org/amir-proj.git
+git commit -m 'first comit'
+git branch -a
+git branch -r
+git push --set-upstream origin master
+git branch --track origin master
+git branch --track
+git push origin master
+git checkout -b new branch
+git push origin code-work-withoutErrors
+
+
+git remote add origin https://amirreshi@bitbucket.org/amirreshi/angular-ngrx-starter.git
+
+angular-ngrx-starter
+
+https://github.com/Angular-RU/angular-ngrx-starter.git
+https://github.com/Angular-RU/angular-ngrx-starter.git
