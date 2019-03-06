@@ -1,0 +1,29 @@
+
+Ngrx redux dev tools
+
+server side execution y
+
+to access some  files on server
+security reasons
+performance
+to store data on database
+
+At refresh it doesnt keep the old state so it losses
+
+ ***************************************************
+ reducer to test additions from items list
+ reducer accepts some actions addLead, removeLead
+ reducer needs to pass an action from ng/store
+ it switches on action
+ 
+ observer: set of callbacks that accept notification coming from observer which include next error complete
+ 
+ subject: observer also abl to emit values observer + observable
+ 
+ Redux links:
+ ngrx/store: github.com/ngrx/store
+ ng2-redux: github.com/angular-redux/ng2-redux
+ 
+ 
+ 
+ 
