@@ -19,3 +19,43 @@ angular-ngrx-starter
 
 https://github.com/Angular-RU/angular-ngrx-starter.git
 https://github.com/Angular-RU/angular-ngrx-starter.git
+
+
+*************new proj*****************
+ng new projname
+add @ngrx/store
+
+********************************
+npm install @ngrx/schematics --save-dev
+npm install @ngrx/{store,effects,entity,store-devtools,router-store} --save
+ng config cli.defaultCollection @ngrx/schematics
+
+Store Command
+ng generate store State --root --statePath store/reducers --module app.module.ts
+
+Effect Command
+ng generate effect store/App --group --root --spec false --module app.module
+
+Actions
+ng generate action store/actions/auth
+
+Reducers
+ng generate reducer store/reducers/auth --reducers index.ts
+
+Effects
+ng generate effect store/effects/auth --module app.module --root true
+
+Add Welcome Component
+ng generate container welcome --state store/reducers/index.ts --stateInterface State
+
+Entity
+ng generate selector store/entity/auth
+************************
+ng g class models/tutorial --type=model
+ng g guard guards/tutorial
+ng generate entity store/reducers/tutorial --reducers index.ts
+
+
+
+
+
