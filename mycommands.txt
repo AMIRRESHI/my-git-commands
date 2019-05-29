@@ -52,8 +52,18 @@ Entity
 ng generate selector store/entity/auth
 ************************
 ng g class models/tutorial --type=model
+ng g class coffee --type=module
+ng g class header-routing --type=module
 ng g guard guards/tutorial
 ng generate entity store/reducers/tutorial --reducers index.ts
+
+ng g c components/create --spec=false
+
+skip-import
+
+
+
+
 
 
 
