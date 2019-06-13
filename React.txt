@@ -1,0 +1,30 @@
+React
+linting: esLint
+airbnb javascript
+reactDevTools
+2. useproptypes & defualt props
+3. know when to create new comp
+4. com vs pure vs 
+   stateless functional comp: eg billboard. jsut a func = => function \
+	. function returning jsx
+	
+pure:
+	.	doesnt do deep checking e.g prop string/boolean it changes a pure comp recognises that. If property in obj changing not going to 	rerener
+	.	wn new prop it rerenders
+	. potentially saves some unnecessary rerenders by not deep checking
+5. react dev tools
+6. use conditional statement 	
+7. true && <somecomp> OR u can use ternay operator also
+8. use snipets library es7 react/redux/react-native/js snipets
+es7 react/redux/graphql/react-native snippets
+jsx entention
+simple react snipets
+prettier code formatter
+e.g ecc
+
+react elemetn: maps with dom elemnt-> light weirht represtation of virtual dom
+
+changes state of any comp-> gives new element->compares this element n its chilederen with prev 1 & detects wtz changed & updates part of real dom
+
+create-react-app
+ 	
